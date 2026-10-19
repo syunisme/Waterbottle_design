@@ -1,548 +1,162 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>仁舟淨塑捲捲矽水瓶 3.0 — 水壺試衣間</title>
-  
-  <!-- React 18 / ReactDOM / Babel (供單檔瀏覽器即時編譯 JSX) -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <!-- 整合您提供的 Tailwind CSS 樣式表 -->
-  <style>
-    *,:before,:after{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x: 0;--tw-border-spacing-y: 0;--tw-translate-x: 0;--tw-translate-y: 0;--tw-rotate: 0;--tw-skew-x: 0;--tw-skew-y: 0;--tw-scale-x: 1;--tw-scale-y: 1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness: proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgb(59 130 246 / .5);--tw-ring-offset-shadow: 0 0 #0000;--tw-ring-shadow: 0 0 #0000;--tw-shadow: 0 0 #0000;--tw-shadow-colored: 0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content: ""}html,:host{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}ol,ul,menu{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}button,[role=button]{cursor:pointer}:disabled{cursor:default}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.bottom-4{bottom:1rem}.left-4{left:1rem}.right-4{right:1rem}.top-0{top:0}.top-4{top:1rem}.z-10{z-index:10}.z-50{z-index:50}.z-\[60\]{z-index:60}.z-\[80\]{z-index:80}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.ml-1{margin-left:.25rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.line-clamp-1{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:.25rem}.h-24{height:6rem}.h-48{height:12rem}.h-6{height:1.5rem}.h-8{height:2rem}.h-\[500px\]{height:500px}.h-auto{height:auto}.h-full{height:100%}.max-h-full{max-height:100%}.min-h-\[500px\]{min-height:500px}.min-h-screen{min-height:100vh}.w-48{width:12rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.max-w-5xl{max-width:64rem}.max-w-\[300px\]{max-width:300px}.max-w-full{max-width:100%}.max-w-sm{max-width:24rem}.flex-1{flex:1 1 0%}.scale-100{--tw-scale-x: 1;--tw-scale-y: 1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-110{--tw-scale-x: 1.1;--tw-scale-y: 1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%,to{transform:translateY(-25%);animation-timing-function:cubic-bezier(.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes spin{to{transform:rotate(360deg)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.appearance-none{-webkit-appearance:none;-moz-appearance:none;appearance:none}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem * var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem * var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-5>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse: 0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-blue-100{--tw-border-opacity: 1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-emerald-200{--tw-border-opacity: 1;border-color:rgb(167 243 208 / var(--tw-border-opacity, 1))}.border-emerald-300{--tw-border-opacity: 1;border-color:rgb(110 231 183 / var(--tw-border-opacity, 1))}.border-orange-100{--tw-border-opacity: 1;border-color:rgb(255 237 213 / var(--tw-border-opacity, 1))}.border-stone-100{--tw-border-opacity: 1;border-color:rgb(245 245 244 / var(--tw-border-opacity, 1))}.border-stone-200{--tw-border-opacity: 1;border-color:rgb(231 229 228 / var(--tw-border-opacity, 1))}.border-stone-800{--tw-border-opacity: 1;border-color:rgb(41 37 36 / var(--tw-border-opacity, 1))}.border-violet-100{--tw-border-opacity: 1;border-color:rgb(237 233 254 / var(--tw-border-opacity, 1))}.border-violet-200{--tw-border-opacity: 1;border-color:rgb(221 214 254 / var(--tw-border-opacity, 1))}.border-violet-600{--tw-border-opacity: 1;border-color:rgb(124 58 237 / var(--tw-border-opacity, 1))}.bg-black\/50{background-color:#00000080}.bg-black\/80{background-color:#000c}.bg-blue-50{--tw-bg-opacity: 1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-emerald-100{--tw-bg-opacity: 1;background-color:rgb(209 250 229 / var(--tw-bg-opacity, 1))}.bg-emerald-50{--tw-bg-opacity: 1;background-color:rgb(236 253 245 / var(--tw-bg-opacity, 1))}.bg-emerald-600{--tw-bg-opacity: 1;background-color:rgb(5 150 105 / var(--tw-bg-opacity, 1))}.bg-emerald-700{--tw-bg-opacity: 1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity: 1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-orange-50{--tw-bg-opacity: 1;background-color:rgb(255 247 237 / var(--tw-bg-opacity, 1))}.bg-red-500{--tw-bg-opacity: 1;background-color:rgb(239 68 68 / var(--tw-bg-opacity, 1))}.bg-stone-100{--tw-bg-opacity: 1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1))}.bg-stone-200{--tw-bg-opacity: 1;background-color:rgb(231 229 228 / var(--tw-bg-opacity, 1))}.bg-stone-50{--tw-bg-opacity: 1;background-color:rgb(250 250 249 / var(--tw-bg-opacity, 1))}.bg-violet-200{--tw-bg-opacity: 1;background-color:rgb(221 214 254 / var(--tw-bg-opacity, 1))}.bg-violet-50{--tw-bg-opacity: 1;background-color:rgb(245 243 255 / var(--tw-bg-opacity, 1))}.bg-violet-600{--tw-bg-opacity: 1;background-color:rgb(124 58 237 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/90{background-color:#ffffffe6}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-violet-100{--tw-gradient-from: #ede9fe var(--tw-gradient-from-position);--tw-gradient-to: rgb(237 233 254 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.from-violet-50{--tw-gradient-from: #f5f3ff var(--tw-gradient-from-position);--tw-gradient-to: rgb(245 243 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)}.to-fuchsia-100{--tw-gradient-to: #fae8ff var(--tw-gradient-to-position)}.to-fuchsia-50{--tw-gradient-to: #fdf4ff var(--tw-gradient-to-position)}.object-contain{-o-object-fit:contain;object-fit:contain}.object-cover{-o-object-fit:cover;object-fit:cover}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.pr-2{padding-right:.5rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-sans{font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"}.text-2xl{font-size:1.5rem;line-height:2rem}.text-\[10px\]{font-size:10px}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.tracking-wide{letter-spacing:.025em}.tracking-widest{letter-spacing:.1em}.text-amber-500{--tw-text-opacity: 1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity: 1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-blue-500{--tw-text-opacity: 1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity: 1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity: 1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity: 1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity: 1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-emerald-800{--tw-text-opacity: 1;color:rgb(6 95 70 / var(--tw-text-opacity, 1))}.text-emerald-900{--tw-text-opacity: 1;color:rgb(6 78 59 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-orange-500{--tw-text-opacity: 1;color:rgb(249 115 22 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity: 1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-orange-700{--tw-text-opacity: 1;color:rgb(194 65 12 / var(--tw-text-opacity, 1))}.text-orange-800{--tw-text-opacity: 1;color:rgb(154 52 18 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity: 1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-purple-900{--tw-text-opacity: 1;color:rgb(88 28 135 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity: 1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity: 1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity: 1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-stone-400{--tw-text-opacity: 1;color:rgb(168 162 158 / var(--tw-text-opacity, 1))}.text-stone-500{--tw-text-opacity: 1;color:rgb(120 113 108 / var(--tw-text-opacity, 1))}.text-stone-600{--tw-text-opacity: 1;color:rgb(87 83 78 / var(--tw-text-opacity, 1))}.text-stone-700{--tw-text-opacity: 1;color:rgb(68 64 60 / var(--tw-text-opacity, 1))}.text-stone-800{--tw-text-opacity: 1;color:rgb(41 37 36 / var(--tw-text-opacity, 1))}.text-violet-400{--tw-text-opacity: 1;color:rgb(167 139 250 / var(--tw-text-opacity, 1))}.text-violet-500{--tw-text-opacity: 1;color:rgb(139 92 246 / var(--tw-text-opacity, 1))}.text-violet-600{--tw-text-opacity: 1;color:rgb(124 58 237 / var(--tw-text-opacity, 1))}.text-violet-700{--tw-text-opacity: 1;color:rgb(109 40 217 / var(--tw-text-opacity, 1))}.text-violet-800{--tw-text-opacity: 1;color:rgb(91 33 182 / var(--tw-text-opacity, 1))}.text-violet-900{--tw-text-opacity: 1;color:rgb(76 29 149 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.line-through{text-decoration-line:line-through}.decoration-stone-400{text-decoration-color:#a8a29e}.accent-emerald-600{accent-color:#059669}.accent-violet-600{accent-color:#7c3aed}.opacity-0{opacity:0}.shadow{--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-2xl{--tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);--tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-inner{--tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / .05);--tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);--tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);--tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.shadow-emerald-200{--tw-shadow-color: #a7f3d0;--tw-shadow: var(--tw-shadow-colored)}.drop-shadow{--tw-drop-shadow: drop-shadow(0 1px 2px rgb(0 0 0 / .1)) drop-shadow(0 1px 1px rgb(0 0 0 / .06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-2xl{--tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / .15));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-xl{--tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / .03)) drop-shadow(0 8px 5px rgb(0 0 0 / .08));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur{--tw-backdrop-blur: blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur: blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.duration-500{transition-duration:.5s}.hover\:scale-110:hover{--tw-scale-x: 1.1;--tw-scale-y: 1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-blue-400:hover{--tw-border-opacity: 1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.hover\:border-emerald-400:hover{--tw-border-opacity: 1;border-color:rgb(52 211 153 / var(--tw-border-opacity, 1))}.hover\:border-violet-300:hover{--tw-border-opacity: 1;border-color:rgb(196 181 253 / var(--tw-border-opacity, 1))}.hover\:border-violet-400:hover{--tw-border-opacity: 1;border-color:rgb(167 139 250 / var(--tw-border-opacity, 1))}.hover\:bg-emerald-700:hover{--tw-bg-opacity: 1;background-color:rgb(4 120 87 / var(--tw-bg-opacity, 1))}.hover\:bg-emerald-800:hover{--tw-bg-opacity: 1;background-color:rgb(6 95 70 / var(--tw-bg-opacity, 1))}.hover\:bg-stone-100:hover{--tw-bg-opacity: 1;background-color:rgb(245 245 244 / var(--tw-bg-opacity, 1))}.hover\:bg-stone-50:hover{--tw-bg-opacity: 1;background-color:rgb(250 250 249 / var(--tw-bg-opacity, 1))}.hover\:text-red-600:hover{--tw-text-opacity: 1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.hover\:text-stone-600:hover{--tw-text-opacity: 1;color:rgb(87 83 78 / var(--tw-text-opacity, 1))}.hover\:text-stone-700:hover{--tw-text-opacity: 1;color:rgb(68 64 60 / var(--tw-text-opacity, 1))}.hover\:text-violet-600:hover{--tw-text-opacity: 1;color:rgb(124 58 237 / var(--tw-text-opacity, 1))}.hover\:shadow-md:hover{--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);--tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000)}.focus\:ring-violet-400:focus{--tw-ring-opacity: 1;--tw-ring-color: rgb(167 139 250 / var(--tw-ring-opacity, 1))}.active\:scale-95:active{--tw-scale-x: .95;--tw-scale-y: .95;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.disabled\:opacity-30:disabled{opacity:.3}.group:hover .group-hover\:text-blue-700{--tw-text-opacity: 1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:text-emerald-700{--tw-text-opacity: 1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}@media(min-width:768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:flex-row{flex-direction:row}.md\:p-8{padding:2rem}.md\:hover\:scale-105:hover{--tw-scale-x: 1.05;--tw-scale-y: 1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>水壺客製化預覽 Demo</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+    padding: 20px;
+  }
+  #container {
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  #bottle {
+    width: 100%;
+    display: block;
+  }
+  #designCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+  }
+</style>
 </head>
-<body class="bg-stone-100 min-h-screen text-stone-800 font-sans">
+<body>
 
-  <!-- React 應用程式掛載點 -->
-  <div id="root"></div>
+<h2>水壺客製化預覽 Demo</h2>
 
-  <!-- React 元件程式碼 (Babel 即時轉譯) -->
-  <script type="text/babel">
-    const { useState, useRef } = React;
+<div id="container">
+  <img id="bottle" src="waterbottle.png">
+  <canvas id="designCanvas"></canvas>
+</div>
 
-    // 預設配色清單
-    const COLOR_PALETTES = [
-      { name: '翡翠綠', hex: '#059669' },
-      { name: '薄荷綠', hex: '#a7f3d0' },
-      { name: '海洋藍', hex: '#2563eb' },
-      { name: '夕陽橙', hex: '#ea580c' },
-      { name: '夢幻紫', hex: '#7c3aed' },
-      { name: '曜石黑', hex: '#292524' },
-      { name: '珍珠白', hex: '#f5f5f4' },
-    ];
+<!-- 上傳圖片 -->
+<label>上傳圖片：</label>
+<input type="file" id="imgUpload"><br><br>
 
-    // 聯名與預設系列
-    const PRESETS = [
-      {
-        id: 'default-1',
-        title: '多變捲捲 - 森林風',
-        cap: '#059669',
-        body: '#e6f4ea',
-        strap: '#047857',
-        text: 'ZENZHOU 3.0',
-        image: ''
-      },
-      {
-        id: 'capoo-1',
-        title: '咖波聯名 - 經典藍貓',
-        cap: '#2563eb',
-        body: '#dbeafe',
-        strap: '#1d4ed8',
-        text: 'CAPOO ROLL',
-        image: 'https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=400&auto=format&fit=crop&q=80'
-      },
-      {
-        id: 'meow-1',
-        title: '喵喵怪聯名 - 甜心粉紅',
-        cap: '#db2777',
-        body: '#fce7f3',
-        strap: '#be185d',
-        text: 'MEOW CAT',
-        image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&auto=format&fit=crop&q=80'
-      }
-    ];
+<!-- 文字 -->
+<label>新增文字：</label>
+<input type="text" id="textInput" placeholder="輸入文字"><br><br>
 
-    function App() {
-      // 狀態設定
-      const [capColor, setCapColor] = useState('#059669');
-      const [bodyColor, setBodyColor] = useState('#ecfdf5');
-      const [strapColor, setStrapColor] = useState('#7c3aed');
-      const [strapText, setStrapText] = useState('ZENZHOU');
-      
-      const [uploadedImage, setUploadedImage] = useState('');
-      const [imgScale, setImgScale] = useState(1);
-      const [imgX, setImgX] = useState(0);
-      const [imgY, setImgY] = useState(0);
+<!-- 換色控制 -->
+<label>瓶身顏色：</label>
+<input type="color" id="colorBody" value="#ffffff"><br><br>
 
-      const [aiPrompt, setAiPrompt] = useState('');
-      const [aiStyle, setAiStyle] = useState('Vector Art');
-      const [isGenerating, setIsGenerating] = useState(false);
+<label>瓶蓋顏色：</label>
+<input type="color" id="colorCap" value="#cccccc"><br><br>
 
-      const [activeTab, setActiveTab] = useState('color'); // color, image, presets, ai
-      const [showQR, setShowQR] = useState(false);
+<label>提帶顏色：</label>
+<input type="color" id="colorHandle" value="#cccccc"><br><br>
 
-      const svgRef = useRef(null);
+<button id="clearBtn">清除設計</button>
 
-      // 上傳圖片處理
-      const handleImageUpload = (e) => {
-        const file = e.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = (event) => {
-            setUploadedImage(event.target.result);
-          };
-          reader.readAsDataURL(file);
-        }
-      };
+<script>
+const canvas = document.getElementById("designCanvas");
+const ctx = canvas.getContext("2d");
+const bottle = document.getElementById("bottle");
+const imgUpload = document.getElementById("imgUpload");
+const textInput = document.getElementById("textInput");
+const clearBtn = document.getElementById("clearBtn");
 
-      // AI 生成圖片 (Pollinations.ai)
-      const handleAIGenerate = () => {
-        if (!aiPrompt) return;
-        setIsGenerating(true);
-        const fullPrompt = `${aiPrompt}, ${aiStyle}, clean background, product illustration pattern`;
-        const encodedPrompt = encodeURIComponent(fullPrompt);
-        const imageUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=512&height=512&nologo=true`;
-        
-        // 預載圖片
-        const img = new Image();
-        img.onload = () => {
-          setUploadedImage(imageUrl);
-          setIsGenerating(false);
-        };
-        img.onerror = () => {
-          alert('AI 圖片生成失敗，請再試一次');
-          setIsGenerating(false);
-        };
-        img.src = imageUrl;
-      };
+const colorBody = document.getElementById("colorBody");
+const colorCap = document.getElementById("colorCap");
+const colorHandle = document.getElementById("colorHandle");
 
-      // 套用預設集
-      const applyPreset = (preset) => {
-        setCapColor(preset.cap);
-        setBodyColor(preset.body);
-        setStrapColor(preset.strap);
-        setStrapText(preset.text);
-        setUploadedImage(preset.image);
-        setImgScale(1);
-        setImgX(0);
-        setImgY(0);
-      };
+let uploadedImg = null;
 
-      // 下載 PNG 圖檔
-      const handleDownloadPNG = () => {
-        if (!svgRef.current) return;
-        const svgElement = svgRef.current;
-        const svgData = new XMLSerializer().serializeToString(svgElement);
-        const svgBlob = new Blob([svgData], { type: 'image/svg+xml;charset=utf-8' });
-        const URLObj = window.URL || window.webkitURL || window;
-        const blobURL = URLObj.createObjectURL(svgBlob);
+// 設定 canvas 大小
+bottle.onload = () => {
+  canvas.width = bottle.width;
+  canvas.height = bottle.height;
+  redrawAll();
+};
 
-        const image = new Image();
-        image.onload = () => {
-          const canvas = document.createElement('canvas');
-          canvas.width = 1000;
-          canvas.height = 1000;
-          const context = canvas.getContext('2d');
-          context.fillStyle = '#f5f5f4';
-          context.fillRect(0, 0, canvas.width, canvas.height);
-          context.drawImage(image, 0, 0, 1000, 1000);
+// 重新渲染所有內容
+function redrawAll() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-          const png = canvas.toDataURL('image/png');
-          const downloadLink = document.createElement('a');
-          downloadLink.href = png;
-          downloadLink.download = `zenzhou-bottle-custom.png`;
-          document.body.appendChild(downloadLink);
-          downloadLink.click();
-          document.body.removeChild(downloadLink);
-        };
-        image.src = blobURL;
-      };
+  // --- 顏色區域繪製 ---
+  drawColorAreas();
 
-      return (
-        <div className="min-h-screen bg-stone-100 flex flex-col">
-          {/* 頁首 Header */}
-          <header className="bg-white border-t border-stone-200 shadow-sm p-4 sticky top-0 z-50">
-            <div className="max-w-5xl mx-auto flex items-center justify-between">
-              <div>
-                <h1 className="text-xl font-bold text-emerald-800">仁舟淨塑捲捲矽水瓶 3.0</h1>
-                <p className="text-xs text-stone-500">水壺試衣間 · 專屬線上客製客化預覽工具</p>
-              </div>
-              <div className="flex gap-2">
-                <button 
-                  onClick={() => setShowQR(true)}
-                  className="px-3 py-1.5 bg-stone-100 hover:bg-stone-200 text-stone-700 rounded-lg text-sm font-medium transition-colors"
-                >
-                  分享款式
-                </button>
-                <button 
-                  onClick={handleDownloadPNG}
-                  className="px-4 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-sm font-semibold transition-colors shadow-sm"
-                >
-                  下載設計圖
-                </button>
-              </div>
-            </div>
-          </header>
+  // --- 上傳圖片 ---
+  if (uploadedImg) {
+    ctx.drawImage(uploadedImg, 60, 120, 180, 180);
+  }
 
-          {/* 主要客製化視窗 Main Content */}
-          <main className="flex-1 max-w-5xl w-full mx-auto p-4 md:p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            
-            {/* 左側：水瓶 3D 質感 SVG 預覽圖 */}
-            <div className="bg-white rounded-3xl p-6 shadow-xl border border-stone-100 flex flex-col items-center justify-center relative min-h-[500px]">
-              <div className="absolute top-4 left-4 bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs px-2.5 py-1 rounded-full font-semibold">
-                即時 3D 質感預覽
-              </div>
+  // --- 文字 ---
+  if (textInput.value) {
+    ctx.font = "24px sans-serif";
+    ctx.fillStyle = "black";
+    ctx.fillText(textInput.value, 80, 330);
+  }
+}
 
-              {/* SVG 水瓶 Rendering */}
-              <svg 
-                ref={svgRef}
-                viewBox="0 0 400 600" 
-                className="w-full h-[450px] drop-shadow-2xl"
-              >
-                <defs>
-                  {/* 水瓶剪裁遮罩 Body Clip Path */}
-                  <clipPath id="bottle-body-clip">
-                    <path d="M 130 200 C 130 180, 270 180, 270 200 L 265 500 C 265 520, 135 520, 135 500 Z" />
-                  </clipPath>
+// 分區著色
+function drawColorAreas() {
 
-                  {/* 矽膠霧面光澤影 Gradient */}
-                  <linearGradient id="silicone-gloss" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#ffffff" stopOpacity="0.35" />
-                    <stop offset="30%" stopColor="#ffffff" stopOpacity="0.05" />
-                    <stop offset="70%" stopColor="#000000" stopOpacity="0.05" />
-                    <stop offset="100%" stopColor="#000000" stopOpacity="0.25" />
-                  </linearGradient>
+  // ---- 1. 瓶蓋 ----
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(90, 0, 120, 60); // 上方蓋子區域（你可微調）
+  ctx.clip();
+  ctx.fillStyle = colorCap.value + "99"; // 半透明
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.restore();
 
-                  {/* 瓶身捲捲壓紋 Texture */}
-                  <pattern id="ribs" width="100" height="20" patternUnits="userSpaceOnUse">
-                    <line x1="0" y1="10" x2="100" y2="10" stroke="#000000" strokeOpacity="0.04" strokeWidth="3" />
-                  </pattern>
-                </defs>
+  // ---- 2. 瓶身 ----
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(60, 60, 180, 270); // 中間瓶身
+  ctx.clip();
+  ctx.fillStyle = colorBody.value + "88";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.restore();
 
-                {/* 1. 提繩/掛繩 Strap */}
-                <path 
-                  d="M 120 160 C 80 160, 70 280, 100 320 C 110 330, 125 310, 115 290 C 95 260, 100 180, 125 180 Z" 
-                  fill={strapColor} 
-                />
-                {/* 提繩刻字 Strap Text */}
-                <text 
-                  x="85" 
-                  y="240" 
-                  fill="#ffffff" 
-                  fontSize="10" 
-                  fontWeight="bold" 
-                  letterSpacing="2"
-                  transform="rotate(-85 85 240)"
-                  opacity="0.8"
-                >
-                  {strapText.toUpperCase()}
-                </text>
+  // ---- 3. 提帶 ----
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(230, 40, 40, 220); // 右邊提帶（簡化形狀）
+  ctx.clip();
+  ctx.fillStyle = colorHandle.value + "99";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.restore();
+}
 
-                {/* 2. 瓶蓋 Bottle Cap */}
-                <rect x="150" y="90" width="100" height="40" rx="8" fill={capColor} />
-                <rect x="160" y="75" width="80" height="20" rx="5" fill={capColor} filter="brightness(0.9)" />
-                <rect x="185" y="60" width="30" height="18" rx="4" fill="#333" />
+// 顏色變動都重新渲染
+colorBody.addEventListener("input", redrawAll);
+colorCap.addEventListener("input", redrawAll);
+colorHandle.addEventListener("input", redrawAll);
 
-                {/* 瓶頸 Neck */}
-                <rect x="145" y="130" width="110" height="50" rx="4" fill="#e5e7eb" />
-                <rect x="140" y="165" width="120" height="15" rx="3" fill={strapColor} />
+// 上傳圖片
+imgUpload.addEventListener("change", e => {
+  const file = e.target.files[0];
+  if (!file) return;
 
-                {/* 3. 瓶身底色 Bottle Body Background */}
-                <path d="M 130 200 C 130 180, 270 180, 270 200 L 265 500 C 265 520, 135 520, 135 500 Z" fill={bodyColor} />
+  const img = new Image();
+  img.onload = () => {
+    uploadedImg = img;
+    redrawAll();
+  };
+  img.src = URL.createObjectURL(file);
+});
 
-                {/* 4. 上傳/生成的圖案 Custom Image Layer */}
-                {uploadedImage && (
-                  <g clipPath="url(#bottle-body-clip)">
-                    <image 
-                      href={uploadedImage} 
-                      x={100 + imgX} 
-                      y={180 + imgY} 
-                      width={200 * imgScale} 
-                      height={320 * imgScale} 
-                      preserveAspectRatio="xMidYMid slice"
-                    />
-                  </g>
-                )}
+// 文字
+textInput.addEventListener("input", redrawAll);
 
-                {/* 5. 矽膠摺紋與光澤疊加層 Overlays */}
-                <path d="M 130 200 C 130 180, 270 180, 270 200 L 265 500 C 265 520, 135 520, 135 500 Z" fill="url(#ribs)" />
-                <path d="M 130 200 C 130 180, 270 180, 270 200 L 265 500 C 265 520, 135 520, 135 500 Z" fill="url(#silicone-gloss)" />
+// 清除按鈕
+clearBtn.addEventListener("click", () => {
+  uploadedImg = null;
+  textInput.value = "";
+  redrawAll();
+});
+</script>
 
-                {/* 瓶身線條外框 Edge Outline */}
-                <path d="M 130 200 C 130 180, 270 180, 270 200 L 265 500 C 265 520, 135 520, 135 500 Z" fill="none" stroke="#000000" strokeOpacity="0.15" strokeWidth="2" />
-              </svg>
-            </div>
-
-            {/* 右側：控制面板 Control Controls Panel */}
-            <div className="bg-white rounded-3xl p-6 shadow-xl border border-stone-100 space-y-6">
-              
-              {/* 控制頁籤 Tab Navigation */}
-              <div className="flex border-b border-stone-200">
-                <button 
-                  onClick={() => setActiveTab('color')}
-                  className={`flex-1 py-3 text-sm font-semibold border-b-2 transition-colors ${activeTab === 'color' ? 'border-emerald-600 text-emerald-700' : 'border-transparent text-stone-500 hover:text-stone-700'}`}
-                >
-                  基礎配色
-                </button>
-                <button 
-                  onClick={() => setActiveTab('image')}
-                  className={`flex-1 py-3 text-sm font-semibold border-b-2 transition-colors ${activeTab === 'image' ? 'border-emerald-600 text-emerald-700' : 'border-transparent text-stone-500 hover:text-stone-700'}`}
-                >
-                  圖片微調
-                </button>
-                <button 
-                  onClick={() => setActiveTab('presets')}
-                  className={`flex-1 py-3 text-sm font-semibold border-b-2 transition-colors ${activeTab === 'presets' ? 'border-emerald-600 text-emerald-700' : 'border-transparent text-stone-500 hover:text-stone-700'}`}
-                >
-                  聯名/系列
-                </button>
-                <button 
-                  onClick={() => setActiveTab('ai')}
-                  className={`flex-1 py-3 text-sm font-semibold border-b-2 transition-colors ${activeTab === 'ai' ? 'border-violet-600 text-violet-700' : 'border-transparent text-stone-500 hover:text-stone-700'}`}
-                >
-                  ✨ AI 工作室
-                </button>
-              </div>
-
-              {/* TAB 1: 基礎配色 */}
-              {activeTab === 'color' && (
-                <div className="space-y-5">
-                  {/* 瓶蓋顏色 */}
-                  <div>
-                    <label className="block text-xs font-bold text-stone-600 mb-2">瓶蓋顏色 (Bottle Cap)</label>
-                    <div className="flex flex-wrap gap-2">
-                      {COLOR_PALETTES.map((c) => (
-                        <button
-                          key={c.name}
-                          onClick={() => setCapColor(c.hex)}
-                          className={`w-8 h-8 rounded-full border-2 transition-transform ${capColor === c.hex ? 'scale-110 border-stone-800 shadow-md' : 'border-transparent'}`}
-                          style={{ backgroundColor: c.hex }}
-                          title={c.name}
-                        />
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* 瓶身底色 */}
-                  <div>
-                    <label className="block text-xs font-bold text-stone-600 mb-2">瓶身底色 (Body Color)</label>
-                    <div className="flex flex-wrap gap-2">
-                      {COLOR_PALETTES.map((c) => (
-                        <button
-                          key={c.name}
-                          onClick={() => setBodyColor(c.hex)}
-                          className={`w-8 h-8 rounded-full border-2 transition-transform ${bodyColor === c.hex ? 'scale-110 border-stone-800 shadow-md' : 'border-transparent'}`}
-                          style={{ backgroundColor: c.hex }}
-                          title={c.name}
-                        />
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* 提繩顏色與文字 */}
-                  <div>
-                    <label className="block text-xs font-bold text-stone-600 mb-2">提繩顏色 (Strap Color)</label>
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {COLOR_PALETTES.map((c) => (
-                        <button
-                          key={c.name}
-                          onClick={() => setStrapColor(c.hex)}
-                          className={`w-8 h-8 rounded-full border-2 transition-transform ${strapColor === c.hex ? 'scale-110 border-stone-800 shadow-md' : 'border-transparent'}`}
-                          style={{ backgroundColor: c.hex }}
-                          title={c.name}
-                        />
-                      ))}
-                    </div>
-
-                    <label className="block text-xs font-bold text-stone-600 mb-1">提繩印字 (客製英文/數字)</label>
-                    <input 
-                      type="text" 
-                      maxLength="12"
-                      value={strapText}
-                      onChange={(e) => setStrapText(e.target.value)}
-                      className="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-violet-400"
-                      placeholder="輸入客製英文，如 ZENZHOU"
-                    />
-                  </div>
-                </div>
-              )}
-
-              {/* TAB 2: 圖片上傳與微調 */}
-              {activeTab === 'image' && (
-                <div className="space-y-4">
-                  <div>
-                    <label className="block text-xs font-bold text-stone-600 mb-2">上傳個人圖案 / 印花</label>
-                    <input 
-                      type="file" 
-                      accept="image/*"
-                      onChange={handleImageUpload}
-                      className="block w-full text-sm text-stone-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-xs file:font-semibold file:bg-emerald-50 file:text-emerald-700 hover:file:bg-emerald-100"
-                    />
-                  </div>
-
-                  {uploadedImage && (
-                    <div className="space-y-3 pt-4 border-t border-stone-100">
-                      <div>
-                        <div className="flex justify-between text-xs font-semibold text-stone-600 mb-1">
-                          <span>縮放大小 (Scale)</span>
-                          <span>{imgScale.toFixed(1)}x</span>
-                        </div>
-                        <input 
-                          type="range" min="0.5" max="3" step="0.1" 
-                          value={imgScale}
-                          onChange={(e) => setImgScale(parseFloat(e.target.value))}
-                          className="w-full accent-emerald-600"
-                        />
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between text-xs font-semibold text-stone-600 mb-1">
-                          <span>左右位置 (X Offset)</span>
-                          <span>{imgX}px</span>
-                        </div>
-                        <input 
-                          type="range" min="-100" max="100" step="1" 
-                          value={imgX}
-                          onChange={(e) => setImgX(parseInt(e.target.value))}
-                          className="w-full accent-emerald-600"
-                        />
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between text-xs font-semibold text-stone-600 mb-1">
-                          <span>上下位置 (Y Offset)</span>
-                          <span>{imgY}px</span>
-                        </div>
-                        <input 
-                          type="range" min="-100" max="100" step="1" 
-                          value={imgY}
-                          onChange={(e) => setImgY(parseInt(e.target.value))}
-                          className="w-full accent-emerald-600"
-                        />
-                      </div>
-
-                      <button 
-                        onClick={() => setUploadedImage('')}
-                        className="text-xs text-red-500 hover:text-red-600 font-medium"
-                      >
-                        移除圖案
-                      </button>
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {/* TAB 3: 聯名與預設選單 */}
-              {activeTab === 'presets' && (
-                <div className="space-y-3">
-                  <p className="text-xs text-stone-500">點擊快速套用人氣聯名與設計款式：</p>
-                  <div className="grid grid-cols-1 gap-3">
-                    {PRESETS.map((p) => (
-                      <div 
-                        key={p.id}
-                        onClick={() => applyPreset(p)}
-                        className="p-3 border border-stone-200 rounded-xl hover:border-emerald-400 cursor-pointer transition-all flex items-center justify-between hover:shadow-md bg-stone-50"
-                      >
-                        <div>
-                          <div className="font-bold text-sm text-stone-800">{p.title}</div>
-                          <div className="text-xs text-stone-500 mt-1">預設印字：{p.text}</div>
-                        </div>
-                        <div className="flex gap-1">
-                          <span className="w-4 h-4 rounded-full border" style={{ backgroundColor: p.cap }}></span>
-                          <span className="w-4 h-4 rounded-full border" style={{ backgroundColor: p.body }}></span>
-                          <span className="w-4 h-4 rounded-full border" style={{ backgroundColor: p.strap }}></span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* TAB 4: AI 創意工作室 */}
-              {activeTab === 'ai' && (
-                <div className="space-y-4 bg-gradient-to-br from-violet-50 to-fuchsia-50 p-4 rounded-2xl border border-violet-100">
-                  <div>
-                    <label className="block text-xs font-bold text-violet-900 mb-1">輸入 AI 提示詞 (English Prompt)</label>
-                    <input 
-                      type="text"
-                      value={aiPrompt}
-                      onChange={(e) => setAiPrompt(e.target.value)}
-                      placeholder="例如: Cute Shiba Inu, sakura blossom"
-                      className="w-full px-3 py-2 border border-violet-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-violet-400"
-                    />
-                  </div>
-
-                  <div>
-                    <label className="block text-xs font-bold text-violet-900 mb-1">選擇繪畫風格</label>
-                    <select 
-                      value={aiStyle}
-                      onChange={(e) => setAiStyle(e.target.value)}
-                      className="w-full px-3 py-2 border border-violet-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-violet-400"
-                    >
-                      <option value="Vector Art Illustration">向量插畫 (Vector Art)</option>
-                      <option value="Japanese Anime Style">日系動漫 (Anime Style)</option>
-                      <option value="Watercolor Painting">水墨渲染 (Watercolor)</option>
-                      <option value="3D Cute Render">3D 立體可愛 (3D Render)</option>
-                      <option value="Photorealistic Studio">真實攝影 (Photorealistic)</option>
-                    </select>
-                  </div>
-
-                  <button
-                    onClick={handleAIGenerate}
-                    disabled={isGenerating || !aiPrompt}
-                    className="w-full py-2.5 bg-violet-600 hover:bg-violet-700 disabled:opacity-30 text-white font-bold text-sm rounded-xl transition-colors shadow-md flex items-center justify-center gap-2"
-                  >
-                    {isGenerating ? (
-                      <>
-                        <span className="animate-spin inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full"></span>
-                        AI 生成中...
-                      </>
-                    ) : (
-                      '✨ 生成專屬瓶身圖案'
-                    )}
-                  </button>
-                  <p className="text-[10px] text-violet-600 text-center">Powered by Pollinations AI (Flux)</p>
-                </div>
-              )}
-
-            </div>
-          </main>
-
-          {/* QR Code 分享彈窗 Modal */}
-          {showQR && (
-            <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
-              <div className="bg-white rounded-3xl p-6 max-w-sm w-full text-center space-y-4 shadow-2xl">
-                <h3 className="text-lg font-bold text-stone-800">分享您的客製矽水瓶</h3>
-                <p className="text-xs text-stone-500">掃描下方 QR Code 即可傳送專屬配色體驗！</p>
-                
-                <div className="flex justify-center p-4 bg-stone-50 rounded-2xl">
-                  <img 
-                    src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(window.location.href)}`} 
-                    alt="Design QR Code"
-                    className="w-44 h-44 object-contain"
-                  />
-                </div>
-
-                <button 
-                  onClick={() => setShowQR(false)}
-                  className="w-full py-2 bg-stone-200 hover:bg-stone-300 text-stone-800 rounded-xl text-sm font-semibold transition-colors"
-                >
-                  關閉
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
-      );
-    }
-
-    // 將應用程式渲染至 DOM
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
 </body>
 </html>
